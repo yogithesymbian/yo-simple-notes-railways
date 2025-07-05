@@ -1,27 +1,25 @@
-# Gunakan base image Golang
-FROM golang:1.23.4
+# Gunakan image Go 1.23.4 + Alpine (supaya bisa pakai apk)
+FROM golang:1.23.4-alpine
 
-# Install git & mysql client
+# Install git dan mysql-client
 RUN apk add --no-cache git mysql-client
 
 # Set working directory
 WORKDIR /app
 
-# Copy go.mod and go.sum files
+# Copy dependency info
 COPY go.mod ./
 COPY go.sum ./
-
-# Download dependencies
 RUN go mod download
 
-# Copy the rest of the source code
+# Copy semua file project
 COPY . .
 
-# Build binary
+# Build project
 RUN go build -o main .
 
-# Expose port 8080 (atau yang kamu gunakan)
+# Railway akan akses via port ini
 EXPOSE 8080
 
-# Jalankan aplikasinya
+# Jalankan binary
 CMD ["./main"]
