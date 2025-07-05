@@ -1,5 +1,5 @@
 # Gunakan base image Golang
-FROM golang:1.22-alpine
+FROM golang:1.23.4
 
 # Install git & mysql client
 RUN apk add --no-cache git mysql-client
