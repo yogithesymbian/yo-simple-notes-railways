@@ -1,13 +1,15 @@
-`````
+DEMO : https://yo-simple-notes-railways-production.up.railway.app/{endpoint}
+
+```
+git clone https://github.com/yogithesymbian/yo-simple-notes-railways.git
 go get github.com/golang-jwt/jwt/v5
 go get github.com/gorilla/mux
 go get github.com/joho/godotenv
 go get github.com/go-sql-driver/mysql
 go get golang.org/x/crypto/bcrypt
 go run main.go
+```
 
-
-````markdown
 # 📘 Notes API with JWT - Documentation
 
 Base URL: `http://localhost:8080`
@@ -27,9 +29,7 @@ Login dan dapatkan JWT token.
   "username": "admin",
   "password": "admin123"
 }
-`````
-
-````
+```
 
 **Response**
 
@@ -199,4 +199,4 @@ INSERT INTO users (username, password) VALUES ('admin', 'admin123');
 
 ```
 
-````
+```
