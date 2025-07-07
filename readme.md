@@ -1,5 +1,7 @@
 DEMO : https://yo-simple-notes-railways-production.up.railway.app/{endpoint}
 
+DEMO FE : https://github.com/yogithesymbian/yo-simple-notes-offline-online-auto-sync
+
 ![Railways](https://github.com/user-attachments/assets/7c8c705e-d78e-4759-bc8c-f10fcc71c56c)
 
 
