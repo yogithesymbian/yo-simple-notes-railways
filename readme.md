@@ -4,6 +4,7 @@ DEMO Aplikasi Mobile (FE) : https://github.com/yogithesymbian/yo-simple-notes-of
 
 ![Railways](https://github.com/user-attachments/assets/7c8c705e-d78e-4759-bc8c-f10fcc71c56c)
 
+![yo-offline-first drawio](https://github.com/user-attachments/assets/9c5b3fbc-32be-446d-9f0b-f949c0f12c1d)
 
 ```
 git clone https://github.com/yogithesymbian/yo-simple-notes-railways.git
